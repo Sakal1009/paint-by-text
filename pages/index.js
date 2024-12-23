@@ -10,7 +10,7 @@ import { getRandomSeed } from "lib/seeds";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export const appName = "Proof of Me's";
+export const appName = "Proof of Me";
 // export const appName = "Paint by Text";
 export const appSubtitle = "Edit your photos using written instructions, with the help of PoM's unified API";
 export const appMetaDescription = "Edit your photos using written instructions, with the help of PoM's unified API.";
