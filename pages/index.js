@@ -120,7 +120,7 @@ export default function Home() {
         <hgroup>
           <div className="flex items-center justify-center gap-2">
             <img src="/favicon.ico" alt="favicon.ico" className="w-20 h-20"/>
-            <h1 className="mx-2 my-6 text-5xl font-bold text-center">{appName}</h1>
+            <h1 className="mx-0 my-6 text-5xl font-bold text-center">{appName}</h1>
           </div>
           <div className="flex items-center justify-center">
           <h3 className="mx-2 my-6 text-2xl font-bold text-center">Payment by text tool</h3>
