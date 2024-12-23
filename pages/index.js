@@ -119,11 +119,11 @@ export default function Home() {
       <main className="container max-w-[700px] mx-auto p-5">
         <hgroup>
           <div className="flex items-center justify-center gap-2">
-            <img src="/favicon.ico" alt="favicon.ico" className="w-20 h-20"/>
+            <img src="/Logo-white.png" alt="favicon.ico" className="w-20 h-20"/>
             <h1 className="mx-0 my-6 text-5xl font-bold text-center">{appName}</h1>
           </div>
           <div className="flex items-center justify-center">
-          <h3 className="mx-2 my-6 text-2xl text-center">Payment by text tool</h3>
+          <h3 className="mx-2 my-6 text-2xl text-center">Paint by text tool</h3>
           </div>
           <p className="m-6 text-xl text-center opacity-60">
             {appSubtitle}

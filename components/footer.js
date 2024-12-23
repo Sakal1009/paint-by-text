@@ -11,11 +11,6 @@ export default function Footer({ events, startOver, handleImageDropped }) {
   return (
     <footer className="w-full my-8">
       <div className="text-center">
-        <Link href="/about" className="lil-button">
-
-          <InfoIcon className="icon" />What is this?
-        </Link>
-
         {events.length > 1 && (
           <button className="lil-button" onClick={startOver}>
             <StartOverIcon className="icon" />
