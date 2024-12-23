@@ -117,7 +117,7 @@ export default function Home() {
 
       <main className="container max-w-[700px] mx-auto p-5">
         <hgroup>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center gap-3">
             <img src="/favicon.ico" alt="favicon.ico" className="w-20 h-20"/>
             <h1 className="m-6 text-5xl font-bold text-center">{appName}</h1>
           </div>
