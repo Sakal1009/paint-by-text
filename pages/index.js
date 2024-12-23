@@ -10,9 +10,10 @@ import { getRandomSeed } from "lib/seeds";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export const appName = "Paint by Text";
-export const appSubtitle = "Edit your photos using written instructions, with the help of an AI.";
-export const appMetaDescription = "Edit your photos using written instructions, with the help of an AI.";
+export const appName = "Proof of Me's";
+// export const appName = "Paint by Text";
+export const appSubtitle = "Edit your photos using written instructions, with the help of PoM's unified API";
+export const appMetaDescription = "Edit your photos using written instructions, with the help of PoM's unified API.";
 
 export default function Home() {
   const [events, setEvents] = useState([]);
@@ -120,6 +121,9 @@ export default function Home() {
           <div className="flex items-center justify-center gap-2">
             <img src="/favicon.ico" alt="favicon.ico" className="w-20 h-20"/>
             <h1 className="mx-2 my-6 text-5xl font-bold text-center">{appName}</h1>
+          </div>
+          <div className="flex items-center justify-center">
+          <h3 className="mx-2 my-6 text-5xl font-bold text-center">Payment by text tool</h3>
           </div>
           <p className="m-6 text-xl text-center opacity-60">
             {appSubtitle}
