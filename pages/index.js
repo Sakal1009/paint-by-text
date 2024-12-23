@@ -117,8 +117,11 @@ export default function Home() {
 
       <main className="container max-w-[700px] mx-auto p-5">
         <hgroup>
-          <h1 className="text-center text-5xl font-bold m-6">{appName}</h1>
-          <p className="text-center text-xl opacity-60 m-6">
+          <div className="flex items-center gap-3">
+            <img src="/favicon.ico" alt="favicon.ico"/>
+            <h1 className="m-6 text-5xl font-bold text-center">{appName}</h1>
+          </div>
+          <p className="m-6 text-xl text-center opacity-60">
             {appSubtitle}
           </p>
         </hgroup>
@@ -141,8 +144,8 @@ export default function Home() {
           disabled={isProcessing}
         />
 
-        <div className="mx-auto w-full">
-          {error && <p className="bold text-red-500 pb-5">{error}</p>}
+        <div className="w-full mx-auto">
+          {error && <p className="pb-5 text-red-500 bold">{error}</p>}
         </div>
 
         <Footer
